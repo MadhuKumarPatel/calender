@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        border: border-box;
+        text-decoration: none;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    #bg {
+        background-image: linear-gradient(rgb(4, 196, 196),rgb(82, 180, 180),rgb(173, 201, 201));
+        height:600px;
+        width: 700px;
+        margin-left: 450px;
+        margin-top: 40px;
+        border-radius: 20px;
+    }
+    table,tr,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        height: 80px;
+        width: 700px;
+    }
+    .nav p{
+        padding-top: 20px;
+        font-size: 50px;
+        font-style: oblique;
+        text-align: center;
+    }
+    .days{
+       margin-top: 30px;
+       height: 50px;
+       width: 700px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 28px;
+       margin-left: 20px;
+    }
+    .days p{
+        font-size: 17px;
+    }
+    .days p:hover{
+        color: chartreuse;
+    }
+    .dates td{
+        font-size: 25px;
+        text-align: center;
+    }
+    .dates td:hover{
+        color: white;
+    }
+    .dates td:hover{
+        transform:scale(1.5) ;
+    }
+    .dates p:hover{
+        color: orange;
+    }
+    </style>
+</head>
+<body>
+    <div id="bg">
+          <div class="navbar">
+               <div class="nav">
+                <p>January 2024</p>
+               </div>
+          </div>
+          <div class="days">
+                <p >SUNDAY</p>
+                <p >MONDAY</p>
+                <p >TUESDAY</p>
+                <p>WEDNESDAY</p>
+                <p >THURSDAY</p>
+                <p >FRIDAY</p>
+                <p >SATURDAY</p>
+          </div>
+          <div class="dates">
+            <table>
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13
+                        <p style="font-size: 12px; margin-top: 8px;">Bhogi</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>14 
+                        <p style="font-size: 12px; margin-top: 8px;">Pongal</p>
+                    </td>
+                    <td>15
+                        <p style="font-size: 12px; margin-top: 8px;">Kanuma</p>
+                    </td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                </tr>
+            </table>
+          </div>
+    </div>
+</body>
+</html>
